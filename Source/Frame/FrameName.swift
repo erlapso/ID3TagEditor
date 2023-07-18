@@ -45,6 +45,7 @@ public enum FrameName: Equatable, Hashable, CaseIterable {
             .recordingYear,
             .recordingHourMinute,
             .recordingDateTime,
+            .chapter,
             .iTunesGrouping,
             .iTunesMovementName,
             .iTunesMovementIndex,
@@ -120,6 +121,8 @@ public enum FrameName: Equatable, Hashable, CaseIterable {
     /// - language: language of the comment, according to the ISO-639-2 standard.
     case comment(_ language: ID3FrameContentLanguage)
     /// Grouping frame name. Version 2.3 and 2.4 only.
+    case chapter
+    /// A list of chapters. Version 3 only
     case iTunesGrouping
     /// Movement name frame name. Version 2.3 and 2.4 only.
     case iTunesMovementName

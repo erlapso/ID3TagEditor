@@ -37,6 +37,7 @@ enum FrameType: String, Equatable {
     case sizeInBytes = "sizeInBytes"
     case unsyncronisedLyrics = "unsyncronisedLyrics"
     case comment = "comment"
+    case chapter = "chapter"
     case iTunesGrouping = "iTunesGrouping"
     case iTunesMovementName = "iTunesMovementName"
     case iTunesMovementIndex = "iTunesMovementIndex"
